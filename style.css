@@ -1,3 +1,4 @@
+
 .sidebar {
   width: 30%;
   height: 100%;
@@ -9,4 +10,50 @@
   display: inline-block;
   height: 100%;
   background-color: red;
+
+span {
+  width: 300px;
+
+  background-color: blue;
+}
+p {
+  display: inline-block;
+  width: 300px;
+}
+h1 {
+  display: inline-block;
+}
+
+.block {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 50px;
+}
+.block1 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 50px;
+}
+
+.wrapper p {
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+  margin-left: 50px;
+}
+
+.box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-right: 50px;
+  vertical-align: middle;
+  background-color: salmon;
+
 }
